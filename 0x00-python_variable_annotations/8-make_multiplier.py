@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """module to define make_multiplier funct"""
 import typing
 

@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """module to define floor func"""
 
 def floor(n: float) -> int:
