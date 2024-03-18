@@ -5,7 +5,7 @@ import typing
 wait_r = __import__('0-basic_async_syntax').wait_random
 
 
-def task_wait_random(max_delay: int) -> typing.Coroutine[any, any, any]:
-    """returns a asyncio.Task"""
+def task_wait_random(max_delay: int) -> typing.Any:
+    """creates and returns a asyncio.Task"""
     task = asyncio.create_task(wait_r(max_delay))
     return task
