@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """asynchromous coroutine that waits for a random delay"""
 import random
 import asyncio

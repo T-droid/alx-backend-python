@@ -1,4 +1,4 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
 """module to define a function that uses the function wait_random
 and compiles a list of delay times in ascending order"""
 import random
